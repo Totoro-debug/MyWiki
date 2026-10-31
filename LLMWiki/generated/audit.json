@@ -1,0 +1,351 @@
+{
+  "notes": 113,
+  "sections": 1367,
+  "chunks": 1407,
+  "source_bytes": 946436,
+  "local_images": 36,
+  "issue_counts": {
+    "empty_section": 27,
+    "image_only_section": 5,
+    "duplicate_heading": 11
+  },
+  "source_issues": [
+    {
+      "path": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+      "kind": "empty_section",
+      "line": 151,
+      "heading": "1. 从最少信息开始：最初只提供当前对象的 ID 和内容摘要。"
+    },
+    {
+      "path": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+      "kind": "empty_section",
+      "line": 153,
+      "heading": "2. 利用局部性逐步 Inline 关联信息：将近期很可能用到的信息 Inline 到上下文中，先附上紧密关联对象的 ID，再附带时空相邻的内容，例如内容前 50 字、IM 消息的前后相邻消息与所回复的消息，或代码评论所在评审讨论中的相邻评论。"
+    },
+    {
+      "path": "01-计算机基础/数据库/MySQL.md",
+      "kind": "image_only_section",
+      "line": 228,
+      "heading": "二、MySQL 执行 SQL 的过程"
+    },
+    {
+      "path": "01-计算机基础/数据库/MySQL.md",
+      "kind": "empty_section",
+      "line": 690,
+      "heading": "2. 为什么不用跳表/B 树？"
+    },
+    {
+      "path": "01-计算机基础/数据库/MySQL.md",
+      "kind": "empty_section",
+      "line": 947,
+      "heading": "(二) MySQL 集群"
+    },
+    {
+      "path": "01-计算机基础/数据库/MySQL.md",
+      "kind": "empty_section",
+      "line": 949,
+      "heading": "十、分库分表"
+    },
+    {
+      "path": "01-计算机基础/数据库/Redis.md",
+      "kind": "duplicate_heading",
+      "line": 461,
+      "heading": "3. 故障转移"
+    },
+    {
+      "path": "01-计算机基础/数据库/Redis.md",
+      "kind": "duplicate_heading",
+      "line": 495,
+      "heading": "3. 故障转移"
+    },
+    {
+      "path": "01-计算机基础/数据库/Redis.md",
+      "kind": "empty_section",
+      "line": 504,
+      "heading": "4. gossip"
+    },
+    {
+      "path": "01-计算机基础/计算机网络.md",
+      "kind": "image_only_section",
+      "line": 1,
+      "heading": "前言"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 728,
+      "heading": "(一) synchronized + Object.wait()/notify()"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 730,
+      "heading": "(二) Lock + Condition.await()/signal()"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 732,
+      "heading": "(三) LockSupport.park()/unpark()"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 734,
+      "heading": "(四) volatile 变量"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 736,
+      "heading": "(五) BlockingQueue/SynchronousQueue"
+    },
+    {
+      "path": "02-Java 后端/JUC.md",
+      "kind": "empty_section",
+      "line": 1197,
+      "heading": "(四) 异步模式——生产者消费者"
+    },
+    {
+      "path": "02-Java 后端/Java 基础.md",
+      "kind": "empty_section",
+      "line": 552,
+      "heading": "1. 手动递归复制"
+    },
+    {
+      "path": "02-Java 后端/Java 集合.md",
+      "kind": "duplicate_heading",
+      "line": 11,
+      "heading": "(一) 遍历"
+    },
+    {
+      "path": "02-Java 后端/Java 集合.md",
+      "kind": "duplicate_heading",
+      "line": 105,
+      "heading": "(一) 遍历"
+    },
+    {
+      "path": "02-Java 后端/Java 集合.md",
+      "kind": "image_only_section",
+      "line": 1,
+      "heading": "前言"
+    },
+    {
+      "path": "02-Java 后端/Java 集合.md",
+      "kind": "image_only_section",
+      "line": 169,
+      "heading": "2. 红黑树插入"
+    },
+    {
+      "path": "02-Java 后端/Spring.md",
+      "kind": "empty_section",
+      "line": 149,
+      "heading": "(二) SpringBoot 启动流程"
+    },
+    {
+      "path": "03-系统设计/分布式系统.md",
+      "kind": "empty_section",
+      "line": 207,
+      "heading": "(二) Gossip 算法"
+    },
+    {
+      "path": "03-系统设计/分布式系统.md",
+      "kind": "empty_section",
+      "line": 319,
+      "heading": "3. Thrift"
+    },
+    {
+      "path": "03-系统设计/消息队列.md",
+      "kind": "empty_section",
+      "line": 196,
+      "heading": "3."
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "duplicate_heading",
+      "line": 169,
+      "heading": "1. 使用场景"
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "duplicate_heading",
+      "line": 178,
+      "heading": "1. 使用场景"
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "duplicate_heading",
+      "line": 211,
+      "heading": "1. 使用场景"
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "empty_section",
+      "line": 157,
+      "heading": "2. 连接池"
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "empty_section",
+      "line": 163,
+      "heading": "(二) 代理模式"
+    },
+    {
+      "path": "03-系统设计/设计模式.md",
+      "kind": "empty_section",
+      "line": 205,
+      "heading": "(二) 模板方法模式"
+    },
+    {
+      "path": "03-系统设计/高可用.md",
+      "kind": "empty_section",
+      "line": 42,
+      "heading": "(四) 灰度发布/分批发布"
+    },
+    {
+      "path": "03-系统设计/高可用.md",
+      "kind": "empty_section",
+      "line": 112,
+      "heading": "(五) 消息队列与异步处理"
+    },
+    {
+      "path": "04-AI/LLM 与 RAG.md",
+      "kind": "empty_section",
+      "line": 150,
+      "heading": "2."
+    },
+    {
+      "path": "04-AI/LLM 与 RAG.md",
+      "kind": "empty_section",
+      "line": 344,
+      "heading": "5. RagAs 框架"
+    },
+    {
+      "path": "04-AI/LLM 与 RAG.md",
+      "kind": "empty_section",
+      "line": 346,
+      "heading": "6. LangSmith 框架"
+    },
+    {
+      "path": "05-项目/12306.md",
+      "kind": "duplicate_heading",
+      "line": 118,
+      "heading": "1. 数据库表"
+    },
+    {
+      "path": "05-项目/12306.md",
+      "kind": "duplicate_heading",
+      "line": 127,
+      "heading": "2. 责任链"
+    },
+    {
+      "path": "05-项目/12306.md",
+      "kind": "duplicate_heading",
+      "line": 144,
+      "heading": "1. 数据库表"
+    },
+    {
+      "path": "05-项目/12306.md",
+      "kind": "duplicate_heading",
+      "line": 155,
+      "heading": "2. 责任链"
+    },
+    {
+      "path": "05-项目/12306.md",
+      "kind": "image_only_section",
+      "line": 1,
+      "heading": "前言"
+    },
+    {
+      "path": "05-项目/Nanobot.md",
+      "kind": "empty_section",
+      "line": 59,
+      "heading": "(四) ContextBuilder 提示词构造器"
+    },
+    {
+      "path": "05-项目/Nanobot.md",
+      "kind": "empty_section",
+      "line": 62,
+      "heading": "(五) SubAgent Manager 子代理管理"
+    }
+  ],
+  "metadata_issues": [],
+  "link_warnings": [
+    {
+      "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/communication.md",
+      "line": 19,
+      "target": "actual link",
+      "embed": false,
+      "syntax": "markdown",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/communication.md",
+      "line": 64,
+      "target": "actual link",
+      "embed": false,
+      "syntax": "markdown",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "01-计算机基础/计算机网络.md",
+      "line": 100,
+      "target": "00-resource/images/TCP三次握手.png",
+      "embed": true,
+      "syntax": "html",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "01-计算机基础/计算机网络.md",
+      "line": 139,
+      "target": "00-resource/images/TCP四次挥手.png",
+      "embed": true,
+      "syntax": "html",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "01-计算机基础/计算机网络.md",
+      "line": 329,
+      "target": "00-resource/images/Http 报文.png",
+      "embed": true,
+      "syntax": "html",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "02-Java 后端/JUC.md",
+      "line": 160,
+      "target": "00-resource/images/Java线程生命周期.png",
+      "embed": true,
+      "syntax": "html",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    },
+    {
+      "source": "02-Java 后端/JUC.md",
+      "line": 407,
+      "target": "00-resource/images/Mark Word.png",
+      "embed": true,
+      "syntax": "html",
+      "resolved": [],
+      "anchor": "",
+      "status": "missing"
+    }
+  ],
+  "limitations": [
+    "图片/附件仅索引引用和路径，不做 OCR，不推断图中事实。",
+    "不检查外部 URL 内容或可用性。",
+    "原笔记的技术断言未经外部事实核查。",
+    "源文档有冲突时保留各自证据，检索排序不裁决真伪。"
+  ]
+}

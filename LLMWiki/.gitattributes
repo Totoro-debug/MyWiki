@@ -1,0 +1,2 @@
+# Keep indexed engine and generated file hashes stable across checkouts.
+* text=auto eol=lf

@@ -1,0 +1,3352 @@
+[
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 9,
+    "target": "https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 10,
+    "target": "https://www.chaincatcher.com/article/2300676",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 11,
+    "target": "Super-agent%20设计探索（全文转载存档）.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 12,
+    "target": "article-reprint.html",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/article-reprint.html"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 16,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 17,
+    "target": "dsh-superagent-prototype-main.zip",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main.zip"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 18,
+    "target": "dsh-superagent-prototype-main/README.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 19,
+    "target": "github-commit.json",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/github-commit.json"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "line": 27,
+    "target": "../../../04-AI/DeepSeek%20Super-agent%20设计解读.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "04-AI/DeepSeek Super-agent 设计解读.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 27,
+    "target": "../../images/dsh-superagent/article-01.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-01.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 31,
+    "target": "../../images/dsh-superagent/article-02.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-02.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 51,
+    "target": "../../images/dsh-superagent/article-03.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-03.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 65,
+    "target": "../../images/dsh-superagent/article-04.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-04.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 117,
+    "target": "../../images/dsh-superagent/article-05.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-05.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 127,
+    "target": "../../images/dsh-superagent/article-06.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-06.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 137,
+    "target": "../../images/dsh-superagent/article-07.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-07.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 159,
+    "target": "../../images/dsh-superagent/article-08.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-08.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 173,
+    "target": "../../images/dsh-superagent/article-09.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-09.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 185,
+    "target": "../../images/dsh-superagent/article-10.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-10.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 225,
+    "target": "../../images/dsh-superagent/article-11.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-11.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 253,
+    "target": "../../images/dsh-superagent/article-12.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-12.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 257,
+    "target": "../../images/dsh-superagent/article-13.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-13.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md",
+    "line": 269,
+    "target": "../../images/dsh-superagent/article-14.webp",
+    "embed": true,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/images/dsh-superagent/article-14.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 7,
+    "target": "https://www.deepseek.com/en/harness/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 9,
+    "target": "docs/000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 17,
+    "target": "SETUP.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/SETUP.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 23,
+    "target": "docs/000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 24,
+    "target": "docs/001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 25,
+    "target": "docs/002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 26,
+    "target": "docs/003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 27,
+    "target": "docs/004-prompts.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 28,
+    "target": "docs/005-panel.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/005-panel.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 29,
+    "target": "docs/006-deployment.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 30,
+    "target": "docs/007-architecture.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 31,
+    "target": "docs/008-cookbook.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "line": 39,
+    "target": "LICENSE",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/LICENSE"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/SETUP.md",
+    "line": 7,
+    "target": "docs/000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/SETUP.md",
+    "line": 33,
+    "target": "docs/001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md",
+    "line": 3,
+    "target": "000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md",
+    "line": 3,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md",
+    "line": 3,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md",
+    "line": 3,
+    "target": "002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md",
+    "line": 112,
+    "target": "002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md",
+    "line": 3,
+    "target": "000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md",
+    "line": 3,
+    "target": "003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md",
+    "line": 75,
+    "target": "000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/005-panel.md",
+    "line": 3,
+    "target": "000-philosophy.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/005-panel.md",
+    "line": 3,
+    "target": "004-prompts.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md",
+    "line": 3,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md",
+    "line": 3,
+    "target": "005-panel.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/005-panel.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md",
+    "line": 91,
+    "target": "../examples/profile.cordis.patch.yml",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/examples/profile.cordis.patch.yml"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md",
+    "line": 188,
+    "target": "003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md",
+    "line": 203,
+    "target": "002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 3,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 3,
+    "target": "006-deployment.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 101,
+    "target": "003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 310,
+    "target": "003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 397,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md",
+    "line": 602,
+    "target": "004-prompts.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md",
+    "line": 3,
+    "target": "001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md",
+    "line": 3,
+    "target": "002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md",
+    "line": 3,
+    "target": "007-architecture.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md",
+    "line": 353,
+    "target": "007-architecture.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/communication.md",
+    "line": 19,
+    "target": "actual link",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/communication.md",
+    "line": 64,
+    "target": "actual link",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "01-计算机基础/操作系统.md",
+    "line": 31,
+    "target": "MESI 协议.webp",
+    "embed": true,
+    "syntax": "wiki",
+    "resolved": [
+      "00-resource/images/MESI 协议.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/操作系统.md",
+    "line": 72,
+    "target": "进程五个状态.webp",
+    "embed": true,
+    "syntax": "wiki",
+    "resolved": [
+      "00-resource/images/进程五个状态.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/数据库/MySQL.md",
+    "line": 230,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773333366171-b92ad647-538c-44b9-8bb7-3747769820f2.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/MySQL.md",
+    "line": 256,
+    "target": "https://cdn.nlark.com/yuque/0/2025/png/46298582/1765432349069-951fe17a-4a81-4491-bad8-e9b26cc8108a.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/MySQL.md",
+    "line": 302,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773575171231-fbca059e-eda5-43af-b772-f800f3ac3a34.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/MySQL.md",
+    "line": 533,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773409743990-e1db2fe0-306e-47d1-9ad8-ea77bc4a5a3f.png?x-oss-process=image%2Fcrop%2Cx_0%2Cy_161%2Cw_2336%2Ch_251",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/Redis.md",
+    "line": 16,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773321730250-b8681b96-ccd6-4719-87bf-95dd0bdfbb70.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/Redis.md",
+    "line": 99,
+    "target": "https://cdn.nlark.com/yuque/0/2025/png/46298582/1759580238303-774b3ed7-416b-491b-911b-e6ee5e27c17a.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/数据库/Redis.md",
+    "line": 103,
+    "target": "https://cdn.nlark.com/yuque/0/2025/png/46298582/1759580267649-46b3b2ce-a698-44d7-bfa4-277b67aad593.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 2,
+    "target": "00-resource/images/网络分层.webp",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/网络分层.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 79,
+    "target": "00-resource/images/TCP.webp",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/TCP.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 100,
+    "target": "00-resource/images/TCP三次握手.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 139,
+    "target": "00-resource/images/TCP四次挥手.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 329,
+    "target": "00-resource/images/Http 报文.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 344,
+    "target": "HTTP 状态码.jpg",
+    "embed": true,
+    "syntax": "wiki",
+    "resolved": [
+      "00-resource/images/HTTP 状态码.jpg"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 390,
+    "target": "00-resource/images/HTTP2 帧格式.webp",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/HTTP2 帧格式.webp"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 456,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1774420255484-558ab51b-78a5-4ef0-8252-d1d6758b31ea.png?x-oss-process=image%2Fcrop%2Cx_0%2Cy_18%2Cw_585%2Ch_408",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "01-计算机基础/计算机网络.md",
+    "line": 462,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1774418389234-449f520b-f42f-4142-b5f9-f2fde97c3d88.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "02-Java 后端/JUC.md",
+    "line": 160,
+    "target": "00-resource/images/Java线程生命周期.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "02-Java 后端/JUC.md",
+    "line": 407,
+    "target": "00-resource/images/Mark Word.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [],
+    "anchor": "",
+    "status": "missing"
+  },
+  {
+    "source": "02-Java 后端/JUC.md",
+    "line": 1032,
+    "target": "00-resource/images/两阶段终止模式.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/两阶段终止模式.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/JVM.md",
+    "line": 114,
+    "target": "00-resource/images/Java 类生命周期.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/Java 类生命周期.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/JVM.md",
+    "line": 282,
+    "target": "00-resource/images/Mark Word64.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/Mark Word64.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/JVM.md",
+    "line": 314,
+    "target": "00-resource/images/JVM 运行时数据区.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/JVM 运行时数据区.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/JVM.md",
+    "line": 794,
+    "target": "https://cdn.nlark.com/yuque/0/2025/jpeg/46298582/1761483781267-3cd49f48-5a46-4ad4-a726-8554f80280a6.jpeg",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "02-Java 后端/JVM.md",
+    "line": 842,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773059514140-44744e0d-166a-400d-b36a-5f6e9fcaf754.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "02-Java 后端/Java 集合.md",
+    "line": 1,
+    "target": "00-resource/images/Java 集合.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/Java 集合.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/Java 集合.md",
+    "line": 171,
+    "target": "00-resource/images/红黑树插入.png",
+    "embed": true,
+    "syntax": "html",
+    "resolved": [
+      "00-resource/images/红黑树插入.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "02-Java 后端/Spring.md",
+    "line": 155,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1775582117679-603a1234-2760-485d-a084-c20d36ce3f92.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "03-系统设计/分布式系统.md",
+    "line": 194,
+    "target": "Raft 任期.png",
+    "embed": true,
+    "syntax": "wiki",
+    "resolved": [
+      "00-resource/images/Raft 任期.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "03-系统设计/消息队列.md",
+    "line": 28,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1773824326550-7a01da7a-2675-4458-8641-8e56b62bedfc.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/Agent.md",
+    "line": 130,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1778921546931-4115a955-a6e8-4382-ad21-d2ee3743479d.png?x-oss-process=image%2Fcrop%2Cx_0%2Cy_170%2Cw_1308%2Ch_835",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/Agent.md",
+    "line": 176,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1778931478365-d79c8c7b-ded4-40f7-889a-5340d0f2e877.png?x-oss-process=image%2Fcrop%2Cx_0%2Cy_98%2Cw_1199%2Ch_1169",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 4,
+    "target": "../00-resource/references/dsh-superagent-2026-10-31/README.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/README.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 95,
+    "target": "../00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 133,
+    "target": "../00-resource/references/dsh-superagent-2026-10-31/Super-agent%20设计探索（全文转载存档）.md",
+    "embed": false,
+    "syntax": "markdown",
+    "resolved": [
+      "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 150,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 151,
+    "target": "https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 152,
+    "target": "https://www.chaincatcher.com/article/2300676",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 153,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/001-domain.md",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 154,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/002-authorization.md",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 155,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/003-execution.md",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/DeepSeek Super-agent 设计解读.md",
+    "line": 156,
+    "target": "https://github.com/deepseek-ai/dsh-superagent-prototype/blob/main/docs/007-architecture.md",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/LLM 与 RAG.md",
+    "line": 5,
+    "target": "https://cdn.nlark.com/yuque/__latex/800083048ba847dcd78d488688d4213a.svg",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/LLM 与 RAG.md",
+    "line": 7,
+    "target": "https://cdn.nlark.com/yuque/0/2026/png/46298582/1775901693437-22fe4436-915e-40ef-8082-d844e0508238.png",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/LLM 与 RAG.md",
+    "line": 13,
+    "target": "https://cdn.nlark.com/yuque/__latex/ef763f2997eeba440d0092c05a5bcfb0.svg",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "04-AI/LLM 与 RAG.md",
+    "line": 17,
+    "target": "https://cdn.nlark.com/yuque/__latex/3aabac114315fc8938d34ac0548ee227.svg",
+    "embed": true,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "05-项目/12306.md",
+    "line": 1,
+    "target": "12306.png",
+    "embed": true,
+    "syntax": "wiki",
+    "resolved": [
+      "00-resource/images/12306.png"
+    ],
+    "anchor": "",
+    "status": "resolved"
+  },
+  {
+    "source": "08-LeetCode/二分/33. 搜索旋转排序数组.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/search-in-rotated-sorted-array/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/33. 搜索旋转排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/33. 搜索旋转排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/4. 寻找两个正序数组的中位数.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/median-of-two-sorted-arrays/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/4. 寻找两个正序数组的中位数.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/4. 寻找两个正序数组的中位数.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二分/4. 寻找两个正序数组的中位数.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/101. 对称二叉树.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/101. 对称二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/101. 对称二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/101. 对称二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/101. 对称二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/102. 二叉树的层序遍历.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/binary-tree-level-order-traversal/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/102. 二叉树的层序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/102. 二叉树的层序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/102. 二叉树的层序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/104. 二叉树的最大深度.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/104. 二叉树的最大深度.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/104. 二叉树的最大深度.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/104. 二叉树的最大深度.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/104. 二叉树的最大深度.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/stack/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/114. 二叉树展开为链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/dynamic-programming/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/199. 二叉树的右视图.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/binary-tree-right-side-view/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/199. 二叉树的右视图.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/199. 二叉树的右视图.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/199. 二叉树的右视图.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/199. 二叉树的右视图.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/226. 翻转二叉树.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/invert-binary-tree/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/226. 翻转二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/226. 翻转二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/226. 翻转二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/226. 翻转二叉树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/kth-smallest-element-in-a-bst/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/236. 二叉树的最近公共祖先.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/236. 二叉树的最近公共祖先.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/236. 二叉树的最近公共祖先.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/236. 二叉树的最近公共祖先.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/437. 路径总和 III.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/path-sum-iii/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/437. 路径总和 III.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/437. 路径总和 III.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/437. 路径总和 III.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/543. 二叉树的直径.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/diameter-of-binary-tree/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/543. 二叉树的直径.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/543. 二叉树的直径.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/543. 二叉树的直径.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/binary-tree-inorder-traversal/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/stack/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/94. 二叉树的中序遍历.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/98. 有效的二叉搜索树.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/validate-binary-search-tree/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/98. 有效的二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/98. 有效的二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/98. 有效的二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/二叉树/98. 有效的二叉搜索树.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-tree/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/121. 买卖股票的最佳时机.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/121. 买卖股票的最佳时机.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/121. 买卖股票的最佳时机.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/dynamic-programming/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/53. 最大子数组和.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/maximum-subarray/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/53. 最大子数组和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/53. 最大子数组和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/动态规划/53. 最大子数组和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/dynamic-programming/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/11. 盛最多水的容器.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/container-with-most-water/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/11. 盛最多水的容器.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/11. 盛最多水的容器.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/11. 盛最多水的容器.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/greedy/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/15. 三数之和.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/3sum/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/15. 三数之和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/15. 三数之和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/15. 三数之和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/283. 移动零.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/move-zeroes/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/283. 移动零.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/283. 移动零.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/trapping-rain-water/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/stack/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/dynamic-programming/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/42. 接雨水.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/monotonic-stack/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/5. 最长回文子串.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/longest-palindromic-substring/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/5. 最长回文子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/5. 最长回文子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/双指针/5. 最长回文子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/dynamic-programming/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/1. 两数之和.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/two-sum/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/1. 两数之和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/1. 两数之和.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/128. 最长连续序列.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/longest-consecutive-sequence/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/128. 最长连续序列.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/union-find/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/128. 最长连续序列.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/128. 最长连续序列.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/49. 字母异位词分组.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/group-anagrams/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/49. 字母异位词分组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/49. 字母异位词分组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/49. 字母异位词分组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/49. 字母异位词分组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/560. 和为 K 的子数组.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/subarray-sum-equals-k/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/560. 和为 K 的子数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/560. 和为 K 的子数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/哈希表/560. 和为 K 的子数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/prefix-sum/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/回溯/46. 全排列.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/permutations/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/回溯/46. 全排列.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/回溯/46. 全排列.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/backtracking/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/number-of-islands/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/union-find/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/200. 岛屿数量.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/207. 课程表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/course-schedule/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/207. 课程表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/depth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/207. 课程表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/207. 课程表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/graph/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/207. 课程表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/topological-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/208. 实现 Trie (前缀树).md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/208. 实现 Trie (前缀树).md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/design/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/208. 实现 Trie (前缀树).md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/trie/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/208. 实现 Trie (前缀树).md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/208. 实现 Trie (前缀树).md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/994. 腐烂的橘子.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/rotting-oranges/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/994. 腐烂的橘子.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/breadth-first-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/994. 腐烂的橘子.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/图/994. 腐烂的橘子.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/kth-largest-element-in-an-array/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/quickselect/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/堆/215. 数组中的第K个最大元素.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/heap-priority-queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/sort-an-array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/bucket-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/counting-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/radix-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/heap-priority-queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/排序/912. 排序数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/merge-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/189. 轮转数组.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/189. 轮转数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/189. 轮转数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/math/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/189. 轮转数组.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/238. 除自身以外数组的乘积.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/238. 除自身以外数组的乘积.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/238. 除自身以外数组的乘积.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/prefix-sum/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/240. 搜索二维矩阵 II.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/240. 搜索二维矩阵 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/240. 搜索二维矩阵 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/binary-search/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/240. 搜索二维矩阵 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/240. 搜索二维矩阵 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/41. 缺失的第一个正数.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/first-missing-positive/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/41. 缺失的第一个正数.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/41. 缺失的第一个正数.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/48. 旋转图像.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/rotate-image/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/48. 旋转图像.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/48. 旋转图像.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/math/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/48. 旋转图像.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/54. 螺旋矩阵.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/spiral-matrix/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/54. 螺旋矩阵.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/54. 螺旋矩阵.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/54. 螺旋矩阵.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/simulation/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/56. 合并区间.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/merge-intervals/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/56. 合并区间.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/56. 合并区间.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/73. 矩阵置零.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/set-matrix-zeroes/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/73. 矩阵置零.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/73. 矩阵置零.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/数组/73. 矩阵置零.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/matrix/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/sliding-window-maximum/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/array/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sliding-window/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/monotonic-queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/heap-priority-queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/3. 无重复字符的最长子串.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/longest-substring-without-repeating-characters/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/3. 无重复字符的最长子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/3. 无重复字符的最长子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/3. 无重复字符的最长子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sliding-window/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/438. 找到字符串中所有字母异位词.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/find-all-anagrams-in-a-string/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/438. 找到字符串中所有字母异位词.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/438. 找到字符串中所有字母异位词.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/438. 找到字符串中所有字母异位词.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sliding-window/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/76. 最小覆盖子串.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/minimum-window-substring/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/76. 最小覆盖子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/76. 最小覆盖子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/string/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/滑动窗口/76. 最小覆盖子串.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sliding-window/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/138. 随机链表的复制.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/copy-list-with-random-pointer/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/138. 随机链表的复制.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/138. 随机链表的复制.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/141. 环形链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/linked-list-cycle/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/141. 环形链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/141. 环形链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/141. 环形链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/142. 环形链表 II.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/linked-list-cycle-ii/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/142. 环形链表 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/142. 环形链表 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/142. 环形链表 II.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/146. LRU 缓存.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/lru-cache/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/146. LRU 缓存.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/146. LRU 缓存.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/146. LRU 缓存.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/design/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/146. LRU 缓存.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/doubly-linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/sort-list/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/sorting/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/148. 排序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/merge-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/160. 相交链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/160. 相交链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/hash-table/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/160. 相交链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/160. 相交链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/19. 删除链表的倒数第 N 个结点.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/remove-nth-node-from-end-of-list/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/19. 删除链表的倒数第 N 个结点.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/19. 删除链表的倒数第 N 个结点.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/2. 两数相加.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/add-two-numbers/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/2. 两数相加.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/2. 两数相加.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/math/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/2. 两数相加.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/206. 反转链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/206. 反转链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/206. 反转链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/21. 合并两个有序链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/merge-two-sorted-lists/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/21. 合并两个有序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/21. 合并两个有序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/23. 合并 K 个升序链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/merge-k-sorted-lists/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/23. 合并 K 个升序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/23. 合并 K 个升序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/divide-and-conquer/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/23. 合并 K 个升序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/heap-priority-queue/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/23. 合并 K 个升序链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/merge-sort/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/234. 回文链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/palindrome-linked-list/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/234. 回文链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/stack/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/234. 回文链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/234. 回文链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/234. 回文链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/two-pointers/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/24. 两两交换链表中的节点.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/swap-nodes-in-pairs/description/?envType=study-plan-v2&envId=top-100-liked",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/24. 两两交换链表中的节点.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/24. 两两交换链表中的节点.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/25. K 个一组翻转链表.md",
+    "line": 1,
+    "target": "https://leetcode.cn/problems/reverse-nodes-in-k-group/description/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/25. K 个一组翻转链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/recursion/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  },
+  {
+    "source": "08-LeetCode/链表/25. K 个一组翻转链表.md",
+    "line": 3,
+    "target": "https://leetcode.cn/tag/linked-list/",
+    "embed": false,
+    "syntax": "markdown",
+    "status": "external_unchecked"
+  }
+]

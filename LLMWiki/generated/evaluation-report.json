@@ -1,0 +1,1120 @@
+{
+  "cases": 31,
+  "passed": 31,
+  "positive_cases": 30,
+  "top1": 28,
+  "top5": 30,
+  "latency_ms_including_refresh_and_source_verification": {
+    "median": 115.91,
+    "p95": 150.38,
+    "max": 163.74
+  },
+  "limitations": "固定本地回归样例，不代表所有自然语言问题的准确率；计时不含 Python 进程启动。",
+  "source_signature": {
+    "schema": 1,
+    "engine": "d19114e75a9d7608c37c69c6cca75e62595b45a410bf12fa2931362946c155d1",
+    "config": "aac694abb5685b8dde0820ccc2ed9dc95c5c8bfca2ec6a2c10ec5f2b680d6637",
+    "leetcode": "62f367c24b566202469b5fa3e2014fb9e106a324793f0f7ea4225d0e6c8c6f45",
+    "sources": {
+      "00-resource/references/dsh-superagent-2026-10-31/README.md": "7c8fc46657e283752205c3dc6213e69d37933cc88ce429fcbbcf0da5eb83d83e",
+      "00-resource/references/dsh-superagent-2026-10-31/Super-agent 设计探索（全文转载存档）.md": "ec03dd388c8826286af56e1163977279754af8e8c3fe84420ebf669a4aee52d4",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/README.md": "737997cf5b7d4129f12ed5485ebbdd5e9d2ce3859a82ded6ac535d222327b713",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/SETUP.md": "75ff78359142dad8bf257b732c1b11313a96c8d1bf0621c73fd4f160460a25ba",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/000-philosophy.md": "0a12126843556fde2bcc2ca52dae2c297b9b5ca9170c3e33d624b2a4d85ca76b",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/001-domain.md": "cd010379e65cc428ffb335aee46529f2a524b8f573fc72359223060fb5a5111b",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/002-authorization.md": "85f559708ac7faef89f88fcad30a405ca62a582a15764a7293686071e609dea0",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/003-execution.md": "049aa22a717f75b9dec4cd6969356db6f736c127de4501c3ce1f6d846217f6eb",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/004-prompts.md": "186ec9307249deae11f7aec68ff21bf58fb0601a204ada0d2688253d58627bf7",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/005-panel.md": "f1f40a19be353933affef35f85428a5be4a3225045ab60bbbc307d35adf652bd",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/006-deployment.md": "92c5a1c6aecab6782a64b3847a2d6f36a48dc9865fa7b04b892fcdaf04f7de9d",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/007-architecture.md": "e3747665587fdf88b28d4e9c1a1f8ac40cbc2c65a9999be1fce14b69ec44d748",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/docs/008-cookbook.md": "adbdaa519f56bc7987ca6394950802cffcb855acff4ee715d10a26a9b0ccefec",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/admission.md": "cdd96f7626a89d5709377c178aa732cf6c247f5b371a07539975a4713c4c52b0",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/cli.md": "a47ab1126c241ede5383de358d1421279791d582c722547f1b542154ad3fd51e",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/dispatch.md": "c34fce83efd114cb5bb725673f1249f092b4e57205cac7cdc45d51160d94ec2a",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/handoff-orchestrator.md": "6b283162d4fbc7274a8b17815fdc62ed57eff314d35a60031e90561805ca3282",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/handoff-worker.md": "ff68068b528ae8f0140965d73f24af6be8e3462506aae40efbc4e054becf7f94",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/handoff.md": "19af7408d146d5a03ff81f155a5582acccd008f608692bcdd4babe8ffb3b6a41",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/orchestrator.md": "0d3a2eda1156ebbc841987f22cd930a16934defef96e8a6eff5210b8eee0edf9",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/replies.md": "d570755d3959d061b13223441c4ce8a5c23ffefccf3427ab852bf3c5267b33e4",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/shared.md": "c14dbc2c8176271e7165a4c0dca14dd608134c0e5a5c6eb7274d71db571e4d02",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/subscriptions.md": "9e5bc9920a508eabc29bba4d2d63b3d46bccf70562389a2ff694b1b9feb578b1",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/communication.md": "af77247e0c757bc136f77fae23be79a887b4d250bbf86579bb9a1a44da833653",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/delivery.md": "aff7c953ce8dfc6e6838f843a5980b4d7c844a517e2d05f89560e8984a9bf55d",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/team/scope.md": "46cb796cabdb960373cf213c43b5e35bd8954ec3072e20350c4904a4dc231425",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/work.md": "b36fbc7ed4cf2d6f91ef2981a31fd5a70e11e2f3304afb921ab94ba135c69a2e",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/prompts/worker.md": "3c6e02fbd2050bb17d4adf644909acc9903b603bfc7248d46df5ef0aa9ef846e",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/skills/dsh-superagent-feishu/SKILL.md": "5cd538eef17f39d3a7c8beb0ff12ab2fff6e405139e59e8667009fd16ebd23c8",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/skills/dsh-superagent-github/SKILL.md": "5081401e53813652f0afa3d73651147e0e7620577360f57cc43dd1c74fb41507",
+      "01-计算机基础/操作系统.md": "3099a35b4b68180c7dd15bb9cb5fd885ff52e724b8a192a70bf444ac07ac90d4",
+      "01-计算机基础/数据库/MySQL.md": "160f2e5aeae170aedd3e225a0cf55e7702c03ac5e1b531dacbbc9f21b5520169",
+      "01-计算机基础/数据库/Redis.md": "2f901c5fe84909198932428d8ba8dcc9994862d2c49751e9efd90fb900c67cf4",
+      "01-计算机基础/计算机网络.md": "39d8ce895618e6780ac01a4368541b06e6ded8f64f63df1644466a55b3b66271",
+      "02-Java 后端/JUC.md": "94f6e2c71cb7899892a23cca82d43e47dd79d3a6b414dc9c3f8f0f2fe9a5b2fa",
+      "02-Java 后端/JVM.md": "5cba0b6d9d5116ba8d4ff633fbdb31eebdb94a7358fa37dba5f2fa172e6e342c",
+      "02-Java 后端/Java 基础.md": "f551310fcb6949493a1a634a3e906a9020cb75fe5f52baec50f967fb315e981c",
+      "02-Java 后端/Java 集合.md": "b3fdb2e3a4074d2ff52690acdf68ce178ee04cb89c7bfde2646e211aa48953c4",
+      "02-Java 后端/Spring.md": "19e910c663fef3412e18e719302350417e566c457a637fe22ab9ea44b4e13b82",
+      "03-系统设计/分布式系统.md": "0d1959eeec2ec886f7d0a17f7cae85ff0324587644f8d190c0754127c5b4b41c",
+      "03-系统设计/消息队列.md": "79b64b6c2e326f630b301f3da05b28d31dd9b2ecac3ad41a029984fb70cd2c26",
+      "03-系统设计/设计模式.md": "22f959ea06c378bba0b995ebee7f68f2bb7e231c6fb1263cf3e8d811b6b04939",
+      "03-系统设计/高可用.md": "fc2c64c72b7d028c232c70cd208000624d4190fd618516a9fabd0d93c0f6ff09",
+      "04-AI/Agent.md": "e9a35558d95c9a03f0ecf14e501c14e40ffb0d0c1ecec93287bed4eff99d0207",
+      "04-AI/DeepSeek Super-agent 设计解读.md": "de5b86c1ecc1c7a218af5727a3cb00f58969613b09cdf1f18f10ad4b511343f4",
+      "04-AI/LLM 与 RAG.md": "d93ce8348aa0037b6d47422f1bd85fbdfe6935edec429c340d4a340d8026b50b",
+      "05-项目/12306.md": "059873d2d21acb8256c1f437f66c4b6c99f5e1bf373b9881668359e85b49f239",
+      "05-项目/Nanobot.md": "0fa880d77493911a2f397846f26f5fbbfb30bb18d65c9eaa9228a60880e0c063",
+      "08-LeetCode/二分/33. 搜索旋转排序数组.md": "b355e38e9ac16babe05df462b8a3b9394bbd887a8cf9a05888d8af7d38ca8487",
+      "08-LeetCode/二分/4. 寻找两个正序数组的中位数.md": "9b7aedb5a2354acd35dda5c087c161b3e7c3a70676c6f2af7fc2dbf0bfb22e9f",
+      "08-LeetCode/二叉树/101. 对称二叉树.md": "4029257910d38c328cdbce27071b95688f82b4cfeafd5e3455bf539b1f968533",
+      "08-LeetCode/二叉树/102. 二叉树的层序遍历.md": "aba8cec887ea4d8bbeabed28507c76efbb4d3d9ca5cf0e6001f80086960e9ee3",
+      "08-LeetCode/二叉树/104. 二叉树的最大深度.md": "6903f145820cde9b50a7136493f8f22a26e3161cabbe7a6978f0144031624a17",
+      "08-LeetCode/二叉树/105. 从前序与中序遍历序列构造二叉树.md": "e3bb79f529722ef943a7ac5118b00ac66eb56acca3b4a558ac3e10b75b85cabb",
+      "08-LeetCode/二叉树/108. 将有序数组转换为二叉搜索树.md": "5d5827ad4718975f4588cad6983901c6258fd134bb1f2cbcd21a531382178bab",
+      "08-LeetCode/二叉树/114. 二叉树展开为链表.md": "40178f648cff112d23d7789b524bdd9c3095e1c229abe5d500967451f0dbce4b",
+      "08-LeetCode/二叉树/124. 二叉树中的最大路径和.md": "532f41aefd7e9a964f0e3d1e4620ba3d2b27f0a2ba050ea7d6f42f98d08350c8",
+      "08-LeetCode/二叉树/199. 二叉树的右视图.md": "667fa1f80d4ac516717b6b785ef9a5783cfe5a9d010ca424bc576087ea7918ea",
+      "08-LeetCode/二叉树/226. 翻转二叉树.md": "0f4943c0009a7cf28077644efadeb9d07becabffb8267c1222ab671844e9015c",
+      "08-LeetCode/二叉树/230. 二叉搜索树中第 K 小的元素.md": "29720bb6134450095da2345db62d7737fe3b4d7d000cddd48dfd523e6a77b009",
+      "08-LeetCode/二叉树/236. 二叉树的最近公共祖先.md": "7ebd70f61e07952ea80713335da71c3eca5518eba82b669387072a64417814cc",
+      "08-LeetCode/二叉树/437. 路径总和 III.md": "2db4017a55ade8059beb163092b90977bbb6dc4f38ba8f0d8b2d673cc24b2cf2",
+      "08-LeetCode/二叉树/543. 二叉树的直径.md": "2d21d2ccf8f5817e72d9406bdabd85a711606d4f39863eab382330fd79f596b9",
+      "08-LeetCode/二叉树/94. 二叉树的中序遍历.md": "93e069204d007be416dce476ad632c7a1ad6097b03f2e3d1d1b91f4375e64c43",
+      "08-LeetCode/二叉树/98. 有效的二叉搜索树.md": "d982217990f9998cde32aac51396d312c384dded156e570393a90ec5e0c1444c",
+      "08-LeetCode/动态规划/121. 买卖股票的最佳时机.md": "364dd04e263417374395195c30e0d2d2976c83fed2c4822a326871bf90adfff0",
+      "08-LeetCode/动态规划/53. 最大子数组和.md": "543f69bf6d33cb0193ddf1e14df0729a8ee9addedfb4af46a43c81fc71d8ca7f",
+      "08-LeetCode/双指针/11. 盛最多水的容器.md": "ecef0adf33bb5c93104dfd84b41755a6a2b504c1d66ec220a36c57d56b7a93ac",
+      "08-LeetCode/双指针/15. 三数之和.md": "bf73c0eb3587fa3dbe05bf40f0bb7002dcae956e43235dd9fb31d27689045f41",
+      "08-LeetCode/双指针/283. 移动零.md": "187886fe7bb4ef2f3233e104ffeee3f51720ca4b36cd259ff4c278ae0a68c515",
+      "08-LeetCode/双指针/42. 接雨水.md": "e72d12e076ad5485fae7e81eae8031c1986eb14c3fda0274e4cc5254dbb03942",
+      "08-LeetCode/双指针/5. 最长回文子串.md": "b30dd87740776757088b163424ea6bc01169fe3b4507b0064a8b3a0de7344a65",
+      "08-LeetCode/哈希表/1. 两数之和.md": "6b964993ea655cc467a31185b2f983effe13a149075b7be44d9ee3afda686d12",
+      "08-LeetCode/哈希表/128. 最长连续序列.md": "af9cb8a53b31dc8df5d7403e692d0e0583f8b9e0ce77f37fa0cc41f0ff200de7",
+      "08-LeetCode/哈希表/49. 字母异位词分组.md": "307e10c043d9727da47ba0ebe30171084c0d497725ac8a1b08aea0bb8f6e294b",
+      "08-LeetCode/哈希表/560. 和为 K 的子数组.md": "6193940f48a0329e6bee099e018e31156406a79543076dd2448d0971b091af91",
+      "08-LeetCode/回溯/46. 全排列.md": "93339be5136194e496fbed7c71c7ecdc3eecfe1b0c8a61cb7f31f4ce824402ad",
+      "08-LeetCode/图/200. 岛屿数量.md": "cfe7611055b59505db18f153c356941d1451945a55285cf97327fbf4c8ad1dcc",
+      "08-LeetCode/图/207. 课程表.md": "a383644b443567c53f9ea313db6224b7b738110bedcf925b3b06d4b9a63668ab",
+      "08-LeetCode/图/208. 实现 Trie (前缀树).md": "e66c246c3c82a83f043444613ffc605a2f55e61f2a04978eaac22d05f46fd022",
+      "08-LeetCode/图/994. 腐烂的橘子.md": "6d6b6b8ff272f489882019f22a1996e069bed77857cd974a34556853dbd0ff4d",
+      "08-LeetCode/堆/215. 数组中的第K个最大元素.md": "21ebbb969947925133c9e0d1b92f742337c8a870bda82d5821d7e5503a6cf76d",
+      "08-LeetCode/排序/912. 排序数组.md": "be4b3430317831052b819ea417b1dc61b0f938199a3000151391d6c61f9f1ba4",
+      "08-LeetCode/数组/189. 轮转数组.md": "eccadca1bdf6e7241980abfb92f555624ec94b08ac720e07a28945607b42e080",
+      "08-LeetCode/数组/238. 除自身以外数组的乘积.md": "2348dd68e4f1d8511df2f4a41995d61acea567e2037e6e95a97018fe90330f83",
+      "08-LeetCode/数组/240. 搜索二维矩阵 II.md": "08b86440a23b5c8bb698f6a9aa57a502fe2328607e426139a47f55ff6c0ead8d",
+      "08-LeetCode/数组/41. 缺失的第一个正数.md": "e84b37bbfea770377121ac6669631e44f05118e1811a8ea167fcd882759b08a5",
+      "08-LeetCode/数组/48. 旋转图像.md": "67309d98ddd4386b56f84bb6c27ecc7c6b2d4d9e0e2caeba4887d58f692186f3",
+      "08-LeetCode/数组/54. 螺旋矩阵.md": "a9c21d0849e9c846c386bf0b62ce930c1a53d59c3b531dec8024d6e2a5375af0",
+      "08-LeetCode/数组/56. 合并区间.md": "a72186f3fd0399d35bccfbd5dba7eba32cece55fd39d8609a72a5abc8d45ee54",
+      "08-LeetCode/数组/73. 矩阵置零.md": "ac6148e7f0aad24b6c105572ae8c35191b23ea88a0067dad7d471c99c2b57beb",
+      "08-LeetCode/滑动窗口/239. 滑动窗口最大值.md": "c7c9d422b579659bf4fc883b636d5fc489db91ec7e14127e64ec00483d4de146",
+      "08-LeetCode/滑动窗口/3. 无重复字符的最长子串.md": "2adefc2cde0ca1c4c238a7df6ffbd33c902018a9a0af822c6c96b47c72d36a3c",
+      "08-LeetCode/滑动窗口/438. 找到字符串中所有字母异位词.md": "7bfd9d370103e016c4143cf9807a6404f544c5f459bc0e33ed1a426f9940f311",
+      "08-LeetCode/滑动窗口/76. 最小覆盖子串.md": "3b8a45c87aa21c3d966920475eb6d384cf86692f7fe6d4b96c275c8b2d7634ef",
+      "08-LeetCode/链表/138. 随机链表的复制.md": "25797fc6d90feb920067391574f1872576eddefaf379ddb2ae96a1c85d4b86c6",
+      "08-LeetCode/链表/141. 环形链表.md": "006e028e9dbf2a5fbdb62c53838dca0a7d8d816453b5c682a5a730565a1b03be",
+      "08-LeetCode/链表/142. 环形链表 II.md": "94e235fe806884bd7ab716da1618039560260a2fab223df9b891ba2460831cfa",
+      "08-LeetCode/链表/146. LRU 缓存.md": "8a7a9e5b5c6a39eb85a6159e944b3ad8371e64c69a84313bca5a1890cc781825",
+      "08-LeetCode/链表/148. 排序链表.md": "273e367ff62708493a25d8f407e363f04a57f9b6989fe28d15dd8f75ad5c70a8",
+      "08-LeetCode/链表/160. 相交链表.md": "a567a0846fd7e9d775ce9d4a0aa33e98edb1446668a77220c18f9b61493f4d35",
+      "08-LeetCode/链表/19. 删除链表的倒数第 N 个结点.md": "19988b24df31408ee7331cc7c90e82e857f5f77fc6d789364663ac79aca48158",
+      "08-LeetCode/链表/2. 两数相加.md": "f58b68ece79b75f234bf646ee74b846fd91d50e19eaee02a4e33766d2a4438fd",
+      "08-LeetCode/链表/206. 反转链表.md": "c6d8a1ab793b7b84cb386401910649e8ccd35e119f96b36eb06ea158f8a4cb38",
+      "08-LeetCode/链表/21. 合并两个有序链表.md": "25669af19662ffa8a9c9d54728902f6f242368af62a01f227a3f27c24d93c0fd",
+      "08-LeetCode/链表/23. 合并 K 个升序链表.md": "82bdccd42ea1770d4441b4357ac99d9fe6b025f8d2cede7ebccd7651a9866242",
+      "08-LeetCode/链表/234. 回文链表.md": "835a97d5c64ffc151b2086dc93f1fb4c8f55a11b4048682caebb8c84a696c0f2",
+      "08-LeetCode/链表/24. 两两交换链表中的节点.md": "2ec364aaef5da13fe89376963d212d1c7b4203091f434b27eb613562858cc07e",
+      "08-LeetCode/链表/25. K 个一组翻转链表.md": "feea3d82fd097308512eec4cdd48ad5ed1ed443264b3c3d7b8caa12a3913ea4a",
+      "09-unachive/design.md": "9b98ffc79a81276858ec6a9aba4bcef6604fe467646cd069fba93c44a26ac62e",
+      "09-unachive/detailed-design.md": "067bc65c6044bb0b66fd4f7c28f3db611c03549d25679a1aabf7a37736e439cf",
+      "09-unachive/prd.md": "061cf34e6fbc3ce8340594665fdb76797eac83b99b74673c8f4c6ef9f5ef4b26",
+      "09-unachive/system-overall-design.md": "293146e77920f88adab7e8cd67f5be02ec258a0b5ce06cdd16fb0df930ccd66b"
+    },
+    "assets": [
+      "00-resource/images/12306.png",
+      "00-resource/images/CMS.png",
+      "00-resource/images/GC 组合.png",
+      "00-resource/images/HTTP 报文.png",
+      "00-resource/images/HTTP 状态码.jpg",
+      "00-resource/images/HTTP2 帧格式.webp",
+      "00-resource/images/JVM 运行时数据区.png",
+      "00-resource/images/Java 类生命周期.png",
+      "00-resource/images/Java 线程生命周期.png",
+      "00-resource/images/Java 集合.png",
+      "00-resource/images/MESI 协议.webp",
+      "00-resource/images/Mark Word64.png",
+      "00-resource/images/Raft 任期.png",
+      "00-resource/images/TCP 三次握手.png",
+      "00-resource/images/TCP 四次挥手.png",
+      "00-resource/images/TCP.webp",
+      "00-resource/images/dsh-superagent/article-01.webp",
+      "00-resource/images/dsh-superagent/article-02.webp",
+      "00-resource/images/dsh-superagent/article-03.webp",
+      "00-resource/images/dsh-superagent/article-04.webp",
+      "00-resource/images/dsh-superagent/article-05.webp",
+      "00-resource/images/dsh-superagent/article-06.webp",
+      "00-resource/images/dsh-superagent/article-07.webp",
+      "00-resource/images/dsh-superagent/article-08.webp",
+      "00-resource/images/dsh-superagent/article-09.webp",
+      "00-resource/images/dsh-superagent/article-10.webp",
+      "00-resource/images/dsh-superagent/article-11.webp",
+      "00-resource/images/dsh-superagent/article-12.webp",
+      "00-resource/images/dsh-superagent/article-13.webp",
+      "00-resource/images/dsh-superagent/article-14.webp",
+      "00-resource/images/image-20250317220609737.png",
+      "00-resource/images/两阶段终止模式.png",
+      "00-resource/images/异常体系.png",
+      "00-resource/images/红黑树插入.png",
+      "00-resource/images/网络分层.webp",
+      "00-resource/images/进程五个状态.webp",
+      "00-resource/references/dsh-superagent-2026-10-31/article-reprint.html",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main.zip",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/LICENSE",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/cordis.patch.yml",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/examples/profile.cordis.patch.yml",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/locale/en.json",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/locale/zh.json",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/package.json",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/pnpm-lock.yaml",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/scripts/dsh-superagent",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/admission.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/api.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/assessment.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/cache.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/cards.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/context.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/delivery.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/effects.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/execution-environment.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/http.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/links.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/migration.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/notices.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/outbox.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/passes.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/prompts.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/resources.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/retry-health.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/role-models.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/runtime.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/sessions.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/settings-history.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/settings.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/setup.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/skill-files.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/source-context.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/store-read.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/store.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/tools/executor.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/tools/main.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/tools/tool.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/versions.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/overview.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/records.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/settings.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/sources.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/text.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/threads.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/app/views/tickets.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/api.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/app.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/client.css",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/controls.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/css.d.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/deployment.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/draft.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/eval.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/execution.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/index.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/locales.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/markdown.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/marks.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/overview.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/prompt-config.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/prompts.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/provider.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/route.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/rows.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/settings-kit.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/settings.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/source.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/text.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/thread.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/ticket.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/trigger.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/client/widgets.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/assignments.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/engine.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/errors.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/evals.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/ids.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/index.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/intake.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/memory.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/model.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/part.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/ports.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/reasons.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/replies.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/stage.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/core/tickets.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/deployment.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/executor/background.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/executor/dsh.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/index.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/infra/commands.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/infra/environment.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/infra/health.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/infra/paths.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/infra/text.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/kv.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/limits.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/navigation.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/policy.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/setup.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/admission-context.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu-channel.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu-image.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu-loops.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu-read.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu-trigger.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/feishu.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/github-channel.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/github-pull.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/github-read.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/github-trigger.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/github.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/host.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/kind.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/poll.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/src/sources/registry.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/admission-context.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/assessment.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/background.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/bundle-patch.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/cache.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/cards.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/class-docs.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/client.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/commands.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/controls.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/core-engine.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/delivery.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/deployment.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/docs.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/draft.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/effects.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/environment.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/feishu-image.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/feishu-read.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/async.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/deployment.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/git.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/host.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/panel-server.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/fixtures/panel.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/followups.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/github-read.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/health.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/http.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/index.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/locales.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/markdown.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/marks.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/migration.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/model-surface.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/navigation.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/outbox.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-deployment.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-eval.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-execution.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-overview.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-panel.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-prompts.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-settings.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-source.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/panel-trigger.spec.tsx",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/passes.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/policy.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/prompt-config.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/prompts.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/queue.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/registry.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/retry-health.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/role-models.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/runtime-concurrency.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/runtime.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/service-script.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/settings.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/sources.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/stage.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/store.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/styles.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/timeline.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/tools.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tests/views.spec.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tsconfig.json",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/tsdown.config.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/dsh-superagent-prototype-main/vitest.config.ts",
+      "00-resource/references/dsh-superagent-2026-10-31/github-commit.json"
+    ]
+  },
+  "outcomes": [
+    {
+      "query": "Redis 缓存击穿",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/Redis.md",
+          "heading": "六、常见问题 > (五) 缓存击穿/热点 Key 过期",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "如何解决缓存击穿",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/Redis.md",
+          "heading": "六、常见问题 > (五) 缓存击穿/热点 Key 过期",
+          "match": "partial_terms"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "一、大模型 > (六) LLM 推理/规划能力 > 2. Tree of Thoughts（ToT 思维树）",
+          "match": "partial_terms"
+        },
+        {
+          "path": "04-AI/Agent.md",
+          "heading": "二、记忆系统",
+          "match": "partial_terms"
+        },
+        {
+          "path": "03-系统设计/分布式系统.md",
+          "heading": "七、注册中心",
+          "match": "partial_terms"
+        },
+        {
+          "path": "03-系统设计/分布式系统.md",
+          "heading": "六、配置中心",
+          "match": "partial_terms"
+        }
+      ]
+    },
+    {
+      "query": "Redis 缓存穿透",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/Redis.md",
+          "heading": "六、常见问题 > (三) 缓存穿透",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "三、 Q & A > (六) 用户注册防止缓存穿透 > 2. 项目使用的方案",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "二、项目实现 > (一) 用户模块 > 3. 用户注册、登录的缓存穿透问题",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "MVCC",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC > 3. Undo log",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (一) 事务四大特性 ACID",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (二) 并发事务的 3 种问题 > 3. 幻读",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC > 1. 聚簇索引记录的隐藏列",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "多版本并发控制",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC > 3. Undo log",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (一) 事务四大特性 ACID",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (二) 并发事务的 3 种问题 > 3. 幻读",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (二) MVCC > 1. 聚簇索引记录的隐藏列",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "MySQL 幻读",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (二) 并发事务的 3 种问题 > 3. 幻读 > 一、可重复读仍会出现的幻读",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (二) 并发事务的 3 种问题 > 3. 幻读",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "三、事务 > (三) 事务隔离级别",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "四、锁 > (三) 行级锁 > 2. 间隙锁**（Gap Lock）**",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "两阶段提交",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (六) 两阶段提交",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "六、InnoDB > (七) 组提交",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/MySQL.md",
+          "heading": "二、MySQL 执行 SQL 的过程 > (二) update 语句执行过程",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "比较并交换",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "五、乐观锁（无锁） > (二) CAS（compareAndSet）",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 基础.md",
+          "heading": "十三、Unsafe > (四) CAS",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "五、乐观锁（无锁）",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "四、 悲观锁 > (二) synchronized（对象监视器锁） > 3. 偏向锁、轻量级锁、重量级锁",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "六、线程安全的集合类 > (三) JUC 线程安全集合类 > 1. Concurrent",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "线程池 拒绝策略",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "七、线程池 > (二) ThreadPoolExecutor 自定义线程池 > 1. 自定义线程池",
+          "match": "all_terms"
+        },
+        {
+          "path": "03-系统设计/设计模式.md",
+          "heading": "四、行为类模式 > (一) 策略模式 > 1. 例子",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "Java 内存模型",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "三、Java 内存模型（JMM）",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "三、Java 内存模型（JMM） > (四) happens-before 原则",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "三、Java 内存模型（JMM） > (二) 线程安全的三大特性",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "三、Java 内存模型（JMM） > (二) 线程安全的三大特性 > 3. 有序性（synchronized、lock、volatile）",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "02-Java 后端/JUC.md",
+          "heading": "三、Java 内存模型（JMM） > (二) 线程安全的三大特性 > 2. 可见性（volatile、synchronized、lock）",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "G1",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "七、垃圾回收器 > (三) 并发 > 2. G1",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "七、垃圾回收器",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "七、垃圾回收器 > (三) 并发 > 3. ZGC",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "五、垃圾回收 > (五) Minor GC、Major GC、FGC",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "类加载器",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "二、JVM 生命周期与类加载子系统 > (四) 类加载器 > 3. 类加载器的引用",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "二、JVM 生命周期与类加载子系统 > (四) 类加载器",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "二、JVM 生命周期与类加载子系统 > (四) 类加载器 > 2. JDK 9",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "二、JVM 生命周期与类加载子系统 > (四) 类加载器 > 1. JDK 8 之前",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/JVM.md",
+          "heading": "二、JVM 生命周期与类加载子系统 > (四) 类加载器 > 4. 两个 Class 对象为同一个类的必要条件",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "HashMap",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "三、双列集合 Map > (二) HashMap：无序、不重复、无索引 > 4. 哈希",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "三、双列集合 Map > (二) HashMap：无序、不重复、无索引 > 5. 为什么不直接使用 hashCode() 作为元素在数组中的下标？",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "三、双列集合 Map > (二) HashMap：无序、不重复、无索引 > 3. 扩容 resize()",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "二、单列集合 Collection > (三) Set：无序、唯一、无索引 > 1. HashSet：无序、不重复、无索引",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Java 集合.md",
+          "heading": "三、双列集合 Map > (五) HashTable",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "控制反转",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (一) IOC > 1. **控制反转（Inversion of Control，IOC）**",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (一) IOC > 3. Spring 容器（Container）",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (一) IOC > 2. 依赖注入（Dependency Injection，DI）",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (五) Spring 设计模式",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "一、组件库 > (一) 基础组件",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "Bean 生命周期",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (二) Bean > 3. Bean 的生命周期",
+          "match": "all_terms"
+        },
+        {
+          "path": "02-Java 后端/Spring.md",
+          "heading": "一、Spring 框架 > (二) Bean",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "三次握手",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (二) 三次握手",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (十一) TCP Fast Open",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "一、输入网址发生了什么",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "四、UDP > (一) TCP 和 UDP 的不同",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "五、HTTP > (五) QUIC 协议 > 1. 可靠传输",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "四次挥手",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (三) 四次挥手",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (三) 四次挥手 > 1. 为什么四次挥手？",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (三) 四次挥手 > 2. 可以三次挥手吗？",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (三) 四次挥手 > 3. 四次挥手报文丢失时，客户端和服务该怎么办？",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "01-计算机基础/计算机网络.md",
+          "heading": "三、TCP > (三) 四次挥手 > 4. 为什么 TIME_WAIT 要等待 2MSL 的时间？",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "零拷贝",
+      "pass": true,
+      "rank": 2,
+      "top": [
+        {
+          "path": "02-Java 后端/Java 基础.md",
+          "heading": "九、IO > (二) NIO（Non-blocking IO，同步非阻塞 IO） > 4. 零拷贝",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/操作系统.md",
+          "heading": "四、IO > (五) 零拷贝",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "01-计算机基础/操作系统.md",
+          "heading": "四、IO > (五) 零拷贝 > 2. 网络传输的零拷贝",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "01-计算机基础/操作系统.md",
+          "heading": "四、IO > (五) 零拷贝 > 1. DMA 直接内存访问",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "分布式锁",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "03-系统设计/分布式系统.md",
+          "heading": "三、分布式锁 > (二) Redis 的 set nx 命令",
+          "match": "all_terms"
+        },
+        {
+          "path": "03-系统设计/分布式系统.md",
+          "heading": "三、分布式锁 > (四) ZooKeeper",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "一、组件库 > (七) 幂等组件 > 1. 幂等方法",
+          "match": "all_terms"
+        },
+        {
+          "path": "01-计算机基础/数据库/Redis.md",
+          "heading": "二、数据结构 > (五) Hash > 1. 应用",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "二、项目实现 > (三) 购票 > 4. 如何防超卖",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "消息 消费 幂等",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "03-系统设计/消息队列.md",
+          "heading": "九、这么保证消息消费的幂等性 > (二) 消费幂等",
+          "match": "all_terms"
+        },
+        {
+          "path": "03-系统设计/消息队列.md",
+          "heading": "九、这么保证消息消费的幂等性 > (一) 业务幂等",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "一、组件库 > (七) 幂等组件 > 2. 幂等注解",
+          "match": "all_terms"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "一、组件库 > (七) 幂等组件 > 1. 幂等方法",
+          "match": "all_terms"
+        },
+        {
+          "path": "03-系统设计/消息队列.md",
+          "heading": "九、这么保证消息消费的幂等性",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "RAG Rerank",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "二、RAG (**Retrieval-Augmented Generation 检索增强生成**) > (九) 重排序 Rerank",
+          "match": "all_terms"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "二、RAG (**Retrieval-Augmented Generation 检索增强生成**) > (十四) 如何减少 RAG 场景下的幻觉？ > 2. 解决策略",
+          "match": "all_terms"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "一、大模型 > (四) 上下文工程（Context Engineering）",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "RAG 混合检索",
+      "pass": true,
+      "rank": 2,
+      "top": [
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "一、大模型 > (四) 上下文工程（Context Engineering）",
+          "match": "all_terms"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "二、RAG (**Retrieval-Augmented Generation 检索增强生成**) > (八) 混合检索",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "二、RAG (**Retrieval-Augmented Generation 检索增强生成**) > (八) 混合检索 > 2. 混合检索",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "二、RAG (**Retrieval-Augmented Generation 检索增强生成**) > (八) 混合检索 > 1. 关键词检索 — **BM25（Best Match 25）**",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "自注意力",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "04-AI/LLM 与 RAG.md",
+          "heading": "一、大模型 > (一) self-attention",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "MCP",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "04-AI/Agent.md",
+          "heading": "一、工具调用 > (二) MCP (Model Context Protocol)",
+          "match": "all_terms"
+        },
+        {
+          "path": "04-AI/Agent.md",
+          "heading": "七、主流 Agent 框架",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "Nanobot AgentLoop",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "05-项目/Nanobot.md",
+          "heading": "二、Core Agent 智能体核心层 > (一) AgentLoop 智能体循环",
+          "match": "all_terms"
+        },
+        {
+          "path": "09-unachive/detailed-design.md",
+          "heading": "nanobot 详细设计文档 > 7. AgentLoop 设计",
+          "match": "all_terms"
+        },
+        {
+          "path": "09-unachive/detailed-design.md",
+          "heading": "nanobot 详细设计文档 > 7. AgentLoop 设计 > 7.2 并发与会话隔离",
+          "match": "all_terms"
+        },
+        {
+          "path": "09-unachive/design.md",
+          "heading": "nanobot 精简复现版设计文档 > 4. Agent 核心设计 > 4.1 AgentLoop",
+          "match": "all_terms"
+        },
+        {
+          "path": "09-unachive/detailed-design.md",
+          "heading": "nanobot 详细设计文档 > 5. 运行入口设计 > 5.2 SDK",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "12306 超卖",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "05-项目/12306.md",
+          "heading": "二、项目实现 > (三) 购票 > 4. 如何防超卖",
+          "match": "all_terms_metadata_only"
+        },
+        {
+          "path": "05-项目/12306.md",
+          "heading": "三、 Q & A > (五) 如何解决高并发购票和防超卖问题？",
+          "match": "all_terms_metadata_only"
+        }
+      ]
+    },
+    {
+      "query": "LeetCode 146",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "08-LeetCode/链表/146. LRU 缓存.md",
+          "heading": "146. LRU 缓存",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "reverse-linked-list",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "08-LeetCode/链表/206. 反转链表.md",
+          "heading": "206. 反转链表",
+          "match": "all_terms"
+        },
+        {
+          "path": "08-LeetCode/链表/234. 回文链表.md",
+          "heading": "234. 回文链表",
+          "match": "all_terms"
+        },
+        {
+          "path": "08-LeetCode/链表/25. K 个一组翻转链表.md",
+          "heading": "25. K 个一组翻转链表",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "最小覆盖子串",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "08-LeetCode/滑动窗口/76. 最小覆盖子串.md",
+          "heading": "76. 最小覆盖子串",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "two-sum",
+      "pass": true,
+      "rank": 1,
+      "top": [
+        {
+          "path": "08-LeetCode/哈希表/1. 两数之和.md",
+          "heading": "1. 两数之和",
+          "match": "all_terms"
+        },
+        {
+          "path": "08-LeetCode/链表/2. 两数相加.md",
+          "heading": "2. 两数相加",
+          "match": "all_terms"
+        },
+        {
+          "path": "08-LeetCode/双指针/42. 接雨水.md",
+          "heading": "42. 接雨水",
+          "match": "all_terms"
+        }
+      ]
+    },
+    {
+      "query": "不存在的术语XYZQ987654321",
+      "pass": true,
+      "rank": null,
+      "top": []
+    }
+  ]
+}
