@@ -1,0 +1,13 @@
+{
+  "sha": "6337fc823ce20251c8de8085948165c81aaa701e",
+  "html_url": "https://github.com/deepseek-ai/dsh-superagent-prototype/commit/6337fc823ce20251c8de8085948165c81aaa701e",
+  "commit": {
+    "author": {
+      "name": "DeepSeek Harness Team",
+      "email": "team@dsh.dev",
+      "date": "2026-10-31T12:05:39Z"
+    },
+    "message": "feat: add the dsh-superagent research prototype"
+  },
+  "downloaded_on": "2026-10-31"
+}
